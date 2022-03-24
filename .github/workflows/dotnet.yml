@@ -25,7 +25,5 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Publish
       run: dotnet publish CMP186-WorkshopGitHubAction.sln
-    - name: Zip
-    - name: action-zip
-      uses: montudor/action-zip@v1.0.0
+
 
